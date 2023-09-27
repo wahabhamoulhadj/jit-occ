@@ -285,7 +285,10 @@ def start(file_path: str, display=False):
                     label]
     use_top_features = True
 
-    dataset = pd.read_csv(file_path)
+    if use_top_features:
+        dataset = pd.read_csv(file_path)[top_features]
+    else:
+        dataset = pd.read_csv(file_path)
 
     scaling_data = True
     scaler = MinMaxScaler()
