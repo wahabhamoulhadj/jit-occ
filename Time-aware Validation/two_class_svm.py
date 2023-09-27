@@ -354,7 +354,7 @@ def start(file_path: str, balancing_method=None, display=False):
     x_train[label] = y_train
     x_validation[label] = y_validation
 
-    for test_case in range(1, 4):
+    for test_case in range(1, 31):
         print(f"*** Sample {test_case} ***", end='\n')
         train_sample = x_train.sample(n=len(x_train), replace=True,
                                       random_state=test_case)  # bootstrap(data=x_train, num_samples=10, statistic_function=np.mean)#x_train.sample()
