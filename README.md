@@ -6,7 +6,7 @@ The repository is organized as follows:
 
 ## Directory Structure
 
-- Datasets: This folder contains 34 datasets used to run the experiments. All projects are mining from [Apache](https://projects.apache.org/projects.html?language) and [JIRA](https://www.atlassian.com/software/jira).
+- Datasets: This folder contains 34 datasets used to run the experiments. All projects are from [Apache](https://projects.apache.org/projects.html?language) and [JIRA](https://www.atlassian.com/software/jira).
 - Results: This folder contains an Excel file with all the results.
 - A list of Python files of the ML scripts we have developed to conduct the experiments.
 
