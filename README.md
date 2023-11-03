@@ -1,6 +1,6 @@
 <b>Replication Package</b>
 
-This repository contains the datasets, results, and scripts used for the paper "Software Defect Prediction Using One-Class Classification," submitted to the Journal of Systems and Software.
+This repository contains the datasets, results, and scripts used for the paper "Commit-Time Defect Prediction Using One-Class Classification," accepted for publication in the Journal of Systems and Software.
 
 The repository is organized as follows:
 
@@ -18,12 +18,12 @@ The repository is organized as follows:
 * pyod 1.0.7
 
 
-**Authors**: Mohammed A. Shehab, Wael Khreich, Abdelwahab Hamou-Lhadj <br>
+**Authors**: Mohammed A. Shehab, Wael Khreich, Abdelwahab Hamou-Lhadj, Issam Sedki <br>
 **Institutions**: Concordia University and American University of Beirut
 
 For any questions regarding the repository and/or the paper, please contact:
 
-Professor Wahab Hamou-Lhadj<br>
+Prof. Wahab Hamou-Lhadj<br>
 wahab.hamou-lhadj AT concordia DOT ca
 
 
